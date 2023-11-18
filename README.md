@@ -1,6 +1,10 @@
-# Yolo, COCO, Pascal VOC detection annotation format read and plotting
+# Yolo, COCO, Pascal-VOC format detection annotations reading and plotting
 
 ## Intro
+
+A Simple code for reading and plotting detection annotations. Yolo, COCO, Pascal-VOC formats are choosen.
+
+This example (sample) is from [u.s.-coins-dataset](https://universe.roboflow.com/atathamuscoinsdataset/u.s.-coins-dataset-a.tatham). The file names and the content of the annotations are untouched (original files).
 
 Coco:
 * `[x_min, y_min, width, height]`
@@ -16,17 +20,13 @@ Yolo:
 
 ## Plot
 
-![Original Image](0e1f9578-20220629_181429_jpg.rf.3a8a6299af5d1677932c9b6defd32330.jpg)
+![Original Image](0e1f9578-20220629_181429_jpg.rf.3a8a6299af5d1677932c9b6defd32330.jpg "Original Image")
 
-![COCO image](coco.jpg)
+![COCO Image](coco.jpg "COCO Image")
 
-![Pascal VOC image](pascal-voc.jpg)
+![Pascal VOC Image](pascal-voc.jpg "Pascal VOC Image")
 
-![Yolo image](yolo.jpg)
+![Yolo Image](yolo.jpg "Yolo Image")
 
-
-## Image and Label
-
-This image and labels are from [u.s.-coins-dataset](https://universe.roboflow.com/atathamuscoinsdataset/u.s.-coins-dataset-a.tatham).
 
 
